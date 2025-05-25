@@ -3,7 +3,7 @@
 # Usage
 ```bash
 chmod +x scipt.py
-python script.py <ip_address>
+./script.py <ip_address>
 ```
 
 # features
@@ -11,9 +11,9 @@ python script.py <ip_address>
 - use multi-threading to speed up the scanning process
 # - Can scan a specific range of ports by passing the `-p` option
 ```bash
-python script.py <ip_address> -p <port_range>
+./script.py <ip_address> -p <port_range>
 ```
 # - Can scan a specific port by passing the `-s` option
 ```bash
-python script.py <ip_address> -s <port>
+./script.py <ip_address> -s <port>
 ```
